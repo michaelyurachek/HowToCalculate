@@ -198,7 +198,6 @@ body {
     color: rgb(201, 201, 201);
     line-height: 1.5;
     list-style-type: decimal;
-    width: 40%;
 }
 
 .header_list_object {
@@ -470,3 +469,140 @@ pre {
 }
 
 /* Responsive Design */
+
+/* Mobile Devices */
+@media (max-width: 600px) {
+    hr {
+        margin-bottom: 10vh;
+        margin-top: 10vh;
+    }
+    .nav_section {
+        display: none;
+    }
+    .main_container {
+        width: 100vw;
+    }
+
+    .header_icon {
+        width: 30vw;
+        margin-top: 15vh;
+    }
+    
+    .header_title {
+        font-size: 9vw;
+        width: 90vw;
+        text-underline-offset: 1vh;
+        margin: 0 auto;
+        line-height: 9vh;
+    }
+
+    .header_description, .section_description {
+        width: 90vw;
+        font-size: 4vw;
+    }
+
+    .header_subtitle, .section_subtitle {
+        width: 90vw;
+        font-size: 7vw;
+        margin: 0 auto;
+        margin-bottom: 5vh;
+    }
+
+    .header_list {
+        width: 90vw;
+        font-size: 4vw;
+    }
+
+    .header_list_object {
+        margin-bottom: 4vh;
+        margin-left: 8vw;
+    }
+
+    .section_title {
+        font-size: 8vw;
+        margin-bottom: 6vh;
+    }
+
+    .section_subtitle {
+        margin: 0 auto;
+        width: 90vw;
+        text-align: center;
+        margin-bottom: 5vh;
+    }
+
+    .code-header span {
+        font-size: 5vw;
+    }
+
+    .copy-btn {
+        font-size: 4vw;
+        padding: 1vh 3vw;
+    }
+
+    .input_equation_module, .advanced_equations_module {
+        width: 90vw;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        align-items: center;
+    }
+
+    #equation_input, #advanced_input {
+        width: 80%;
+        font-size: 5vw;
+        margin: 2vh 0;
+    }
+
+    #result_display, #advanced_result_display {
+        font-size: 6vw;
+        margin: 2vh 0;
+    }
+
+    .calculate_button {
+        font-size: 5vw;
+        padding: 1vh 3vw;
+    }
+
+    .button_click_module {
+        width: 90vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .calculator {
+        width: 100%;
+        font-size: 6vw;
+        padding: 1vh 2vw;
+    }
+
+    .buttons {
+        gap: 3vw;
+        margin-top: 3vh;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .btn {
+        font-size: 5vw;
+        padding: 2vh 0;
+    }
+
+    #button_display {
+        font-size: 6vw;
+        margin: 2vh 0;
+    }
+}
+
+/* Tablets */
+@media (min-width: 601px) and (max-width: 900px) {
+
+}
+
+/* Laptops */
+@media (min-width: 901px) and (max-width: 1200px) {
+
+}
+
+/* Desktops */
+@media (min-width: 1201px) {
+
+}
